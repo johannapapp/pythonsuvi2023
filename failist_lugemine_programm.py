@@ -1,0 +1,5 @@
+avad = open("Failist_lugemine")
+sisu = int(avad.readline())
+sone = avad.readline()
+print(sisu * sone)
+avad.close()
